@@ -26,6 +26,8 @@ Create questions by making post call to http://localhost:8080/questions
 	"answer": "a"
 }
 
+Check if the user can login by doing a GET on http://localhost:8080/users/{userId}/password/{passwordText}
+
 Get the id of the either the new quiz or the existing quiz by doing a GET on http://localhost:8080/getQuiz/{userId}
 
 Find out if you can start the quiz by doing a GET on http://localhost:8080/canStartQuiz/{quizId}
